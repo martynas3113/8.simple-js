@@ -56,5 +56,8 @@ console.log(sumArray)
 
 // array str sum
 
-const strSum = array6.concat(array5,array4)
+// const strSum = array6.concat(array5,array4)
+// console.log(strSum);
+
+const strSum = array6.join(', ')
 console.log(strSum);
