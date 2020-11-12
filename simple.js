@@ -54,10 +54,36 @@ sumaArray = sumaArray + array1[4];
 console.log(sumArray)
 
 
-// array str sum
+// 3 budas
 
-// const strSum = array6.concat(array5,array4)
-// console.log(strSum);
+// let sumaArray = 0;
+// sumaArray = sumaArray + array1[0];
+// sumaArray = sumaArray - array1[1];
+// sumaArray = sumaArray + array1[2];
+// sumaArray = sumaArray - array1[3];
+// sumaArray = sumaArray + array1[4];
+// console.log(sumArray)
 
-const strSum = array6.join(', ')
+
+
+// 1 budas
+
+const strSum = array4[0]+ ', ' + array4[1]+ ', ' + array4[2];
 console.log(strSum);
+
+
+
+// 2 budas 
+
+let strSum2 = array4.reverse();
+strSum2 = array4.join(', ')
+console.log(strSum2);
+
+
+// 3 budas 
+
+let pirate = '';
+pirate = pirate + array6[2];
+pirate = pirate + ', ' + array6[1];
+pirate = pirate + ', ' + array6[0];
+console.log(pirate)
