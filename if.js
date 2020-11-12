@@ -54,3 +54,14 @@ if (zodis1 === zodis2) {
     console.log('False');
     
 }
+
+
+
+// Kintamieji
+// Salygos funcijos
+// Ciklo funkcijos
+// Funkcijos
+// Event lisner'iai
+
+
+
