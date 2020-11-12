@@ -73,6 +73,7 @@ console.log(strSum);
 
 
 
+
 // 2 budas 
 
 let strSum2 = array4.reverse();
@@ -87,3 +88,5 @@ pirate = pirate + array6[2];
 pirate = pirate + ', ' + array6[1];
 pirate = pirate + ', ' + array6[0];
 console.log(pirate)
+
+
