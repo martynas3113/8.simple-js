@@ -44,3 +44,49 @@ for (let i = 0; i  < miestai.length;  i++) {
     console.log(`Aplankiau: ${miestai[i]}`);
     
 }
+
+// isvardinti saraso narius is galo
+// 1 budas 
+const abc = ['a','b','c','d']
+abc.reverse();
+console.log(abc);
+
+// 2 budas naudojant cikla
+const spell = ['a','b','c','d'];
+for (let i = spell.length - 1;  i >=0; i--) {
+    console.log(spell[i]);
+}
+
+
+console.clear();
+
+// const text = 'ottoman';
+
+// for (let i = 0;  i< text.length; i++) {
+//     console.log(text[i] );
+    
+// }
+
+
+
+
+// Duodamas zodis ir is jo reikia isrinkti kas antra raide ir isspauzdinti kas gaunasi
+
+let text = 'abcdef';
+let result = '';
+let raide = '';
+const step = 2;
+
+for (let i = step - 1;  i< text.length; i = i+step) {
+    raide = text[i];
+    result = result + raide;
+    
+}
+
+console.log(result);
+
+
+
+
+
+
